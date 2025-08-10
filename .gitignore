@@ -1,36 +1,93 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# Dependencies
 /node_modules
+/pace-website/node_modules
 /.pnp
 .pnp.js
+*.lock
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
 
-# testing
+# Testing
 /coverage
+/pace-website/coverage
 
-# next.js
+# Build outputs
+/build
+/pace-website/build
+/pace-website/dist
 /.next/
 /out/
 
-# production
-/build
+# Development
+.vite
+.turbo
+.cache
 
-# misc
-.DS_Store
-*.pem
-
-# debug
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# local env files
-.env*.local
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment files
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
 
-# vercel
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# ElevenLabs
+*.pem
+
+# Backup files
+*_backup.*
+*_old.*
+*_bak.*
+
+# Vercel
 .vercel
 
-# typescript
+# TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# ESLint
+.eslintcache
