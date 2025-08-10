@@ -1,0 +1,396 @@
+{
+  "athlete": {
+    "profile": {
+      "id": "demo-athlete-001",
+      "name": "Alex Johnson",
+      "age": 22,
+      "gender": "male",
+      "dateOfBirth": "2002-03-15",
+      "height": {
+        "feet": 5,
+        "inches": 10,
+        "cm": 178,
+        "display": "5'10\""
+      },
+      "weight": {
+        "lbs": 165,
+        "kg": 75,
+        "display": "165 lbs"
+      },
+      "bodyComposition": {
+        "bodyFatPercentage": 8.5,
+        "muscleMass": 68.5,
+        "bmi": 23.7
+      }
+    },
+    "athletics": {
+      "primaryEvent": "100m",
+      "eventGroup": "sprints",
+      "specialization": "short sprints",
+      "experience": {
+        "yearsCompeting": 8,
+        "level": "collegiate",
+        "division": "Division I",
+        "teamAffiliation": "State University Track Club"
+      },
+      "personalBests": {
+        "outdoor": {
+          "100m": {
+            "time": "10.45",
+            "date": "2024-05-15",
+            "location": "NCAA Regionals",
+            "wind": "+1.2"
+          },
+          "200m": {
+            "time": "21.12",
+            "date": "2024-04-20",
+            "location": "Conference Championships",
+            "wind": "+0.8"
+          },
+          "400m": {
+            "time": "48.95",
+            "date": "2023-06-10",
+            "location": "State Meet",
+            "wind": "N/A"
+          }
+        },
+        "indoor": {
+          "60m": {
+            "time": "6.78",
+            "date": "2024-02-25",
+            "location": "Indoor Conference Championships"
+          },
+          "200m": {
+            "time": "21.45",
+            "date": "2024-03-08",
+            "location": "Indoor Nationals"
+          }
+        },
+        "relay": {
+          "4x100m": {
+            "time": "39.85",
+            "date": "2024-05-20",
+            "location": "NCAA Championships",
+            "leg": "anchor"
+          }
+        }
+      },
+      "goals": {
+        "shortTerm": {
+          "primary": "Break 10.40 in 100m",
+          "secondary": "Run 20.95 in 200m",
+          "tertiary": "Qualify for NCAA Championships"
+        },
+        "longTerm": {
+          "primary": "Professional track career",
+          "secondary": "Sub-10.30 in 100m",
+          "tertiary": "Make national team"
+        },
+        "seasonal": {
+          "indoor2025": "Win conference title in 60m",
+          "outdoor2025": "NCAA finalist in 100m",
+          "fallTraining": "Build aerobic base"
+        }
+      }
+    },
+    "training": {
+      "currentPhase": "pre-season",
+      "phaseStartDate": "2024-12-01",
+      "phaseEndDate": "2025-02-15",
+      "coach": "Coach Martinez",
+      "trainingLocation": "University Track Complex",
+      "weeklySchedule": {
+        "monday": {
+          "session": "Speed Development",
+          "focus": "acceleration",
+          "duration": 90,
+          "intensity": "high",
+          "components": [
+            "Dynamic warm-up (15 min)",
+            "Acceleration work: 6x30m (95%)",
+            "Block starts: 4x20m",
+            "Core strength (20 min)",
+            "Cool down and stretch (15 min)"
+          ]
+        },
+        "tuesday": {
+          "session": "Strength Training",
+          "focus": "power development",
+          "duration": 75,
+          "intensity": "high",
+          "components": [
+            "Warm-up (10 min)",
+            "Squats: 4x4 @ 85%",
+            "Power cleans: 5x3 @ 80%",
+            "Plyometrics: depth jumps, bounds",
+            "Accessory work (15 min)"
+          ]
+        },
+        "wednesday": {
+          "session": "Speed Endurance",
+          "focus": "lactate tolerance",
+          "duration": 85,
+          "intensity": "moderate-high",
+          "components": [
+            "Extended warm-up (20 min)",
+            "150m x 3 @ 90% (8min rest)",
+            "100m x 2 @ 95% (6min rest)",
+            "Tempo cool down (15 min)"
+          ]
+        },
+        "thursday": {
+          "session": "Recovery/Technique",
+          "focus": "movement quality",
+          "duration": 60,
+          "intensity": "low",
+          "components": [
+            "Easy jogging (15 min)",
+            "Technical drills (20 min)",
+            "Flexibility work (15 min)",
+            "Massage/recovery (10 min)"
+          ]
+        },
+        "friday": {
+          "session": "Max Velocity",
+          "focus": "top speed",
+          "duration": 80,
+          "intensity": "high",
+          "components": [
+            "Progressive warm-up (20 min)",
+            "Flying 20m x 4 @ 100%",
+            "60m buildups x 3",
+            "Hurdle mobility (15 min)"
+          ]
+        },
+        "saturday": {
+          "session": "Strength Training",
+          "focus": "strength endurance",
+          "duration": 70,
+          "intensity": "moderate",
+          "components": [
+            "Dynamic warm-up (10 min)",
+            "Deadlifts: 4x6 @ 80%",
+            "Single-leg work",
+            "Core circuit (20 min)",
+            "Stretching (15 min)"
+          ]
+        },
+        "sunday": {
+          "session": "Rest/Active Recovery",
+          "focus": "recovery",
+          "duration": 30,
+          "intensity": "very low",
+          "components": [
+            "Light swimming or cycling",
+            "Yoga or stretching",
+            "Foam rolling",
+            "Complete rest option"
+          ]
+        }
+      },
+      "recentPerformance": {
+        "trainingConsistency": 95,
+        "averageIntensity": 8.2,
+        "weeklyVolume": "12-15 hours",
+        "injuryStatus": "healthy",
+        "lastRestDay": "2024-12-29",
+        "sleepQuality": 8.5,
+        "stressLevel": 3.2
+      }
+    },
+    "nutrition": {
+      "dailyTargets": {
+        "calories": 3200,
+        "protein": {
+          "grams": 165,
+          "percentage": 21
+        },
+        "carbohydrates": {
+          "grams": 400,
+          "percentage": 50
+        },
+        "fats": {
+          "grams": 103,
+          "percentage": 29
+        },
+        "water": {
+          "liters": 3.5,
+          "ounces": 118
+        }
+      },
+      "mealPlan": {
+        "breakfast": {
+          "calories": 650,
+          "foods": [
+            "Oatmeal with banana and berries",
+            "Greek yogurt",
+            "Orange juice",
+            "Almonds"
+          ]
+        },
+        "midMorning": {
+          "calories": 300,
+          "foods": [
+            "Protein shake",
+            "Apple with peanut butter"
+          ]
+        },
+        "lunch": {
+          "calories": 750,
+          "foods": [
+            "Grilled chicken breast",
+            "Brown rice",
+            "Mixed vegetables",
+            "Avocado"
+          ]
+        },
+        "preWorkout": {
+          "calories": 250,
+          "foods": [
+            "Banana",
+            "Energy bar",
+            "Electrolyte drink"
+          ]
+        },
+        "postWorkout": {
+          "calories": 400,
+          "foods": [
+            "Chocolate milk",
+            "Turkey sandwich",
+            "Fruit"
+          ]
+        },
+        "dinner": {
+          "calories": 800,
+          "foods": [
+            "Lean beef or salmon",
+            "Sweet potato",
+            "Green salad",
+            "Quinoa"
+          ]
+        },
+        "evening": {
+          "calories": 200,
+          "foods": [
+            "Casein protein",
+            "Nuts or seeds"
+          ]
+        }
+      },
+      "supplements": [
+        {
+          "name": "Whey Protein",
+          "dosage": "25g post-workout",
+          "purpose": "muscle recovery"
+        },
+        {
+          "name": "Creatine Monohydrate",
+          "dosage": "5g daily",
+          "purpose": "power output"
+        },
+        {
+          "name": "Vitamin D3",
+          "dosage": "2000 IU daily",
+          "purpose": "bone health"
+        },
+        {
+          "name": "Omega-3",
+          "dosage": "1g daily",
+          "purpose": "inflammation reduction"
+        },
+        {
+          "name": "Magnesium",
+          "dosage": "400mg before bed",
+          "purpose": "sleep and recovery"
+        }
+      ],
+      "hydrationPlan": {
+        "preTraining": "500ml 2 hours before",
+        "duringTraining": "200ml every 15-20 min",
+        "postTraining": "150% of fluid lost",
+        "daily": "35ml per kg body weight"
+      }
+    },
+    "recovery": {
+      "sleepTargets": {
+        "duration": 8.5,
+        "bedtime": "10:30 PM",
+        "wakeTime": "7:00 AM",
+        "quality": "deep sleep priority"
+      },
+      "recoveryMethods": [
+        {
+          "method": "Ice bath",
+          "frequency": "post-intense sessions",
+          "duration": "10-15 minutes",
+          "temperature": "50-59°F"
+        },
+        {
+          "method": "Massage therapy",
+          "frequency": "2x per week",
+          "duration": "60 minutes",
+          "type": "deep tissue"
+        },
+        {
+          "method": "Stretching routine",
+          "frequency": "daily",
+          "duration": "20 minutes",
+          "focus": "hip flexors, hamstrings, calves"
+        },
+        {
+          "method": "Foam rolling",
+          "frequency": "daily",
+          "duration": "15 minutes",
+          "areas": "IT band, quads, glutes"
+        }
+      ],
+      "stressManagement": {
+        "meditation": "10 minutes daily",
+        "breathwork": "4-7-8 technique",
+        "hobbies": ["reading", "music", "gaming"],
+        "socialSupport": "family, teammates, coach"
+      }
+    },
+    "health": {
+      "allergies": [],
+      "medicalConditions": [],
+      "medications": [],
+      "lastPhysical": "2024-08-15",
+      "lastBloodwork": "2024-06-20",
+      "vitalSigns": {
+        "restingHeartRate": 45,
+        "bloodPressure": "110/70",
+        "bodyTemperature": 98.6
+      },
+      "injuryHistory": [
+        {
+          "injury": "Minor hamstring strain",
+          "date": "2023-07-12",
+          "recovery": "3 weeks",
+          "status": "fully healed"
+        }
+      ]
+    },
+    "preferences": {
+      "communicationStyle": "direct and motivational",
+      "learningStyle": "visual and kinesthetic",
+      "motivationFactors": [
+        "competition",
+        "personal records",
+        "team success",
+        "long-term goals"
+      ],
+      "concernAreas": [
+        "injury prevention",
+        "race tactics",
+        "mental preparation"
+      ]
+    }
+  },
+  "metadata": {
+    "lastUpdated": "2025-01-09T21:00:00.000Z",
+    "version": "1.0",
+    "dataSource": "manual_entry",
+    "nextUpdate": "2025-01-16T21:00:00.000Z"
+  }
+}
